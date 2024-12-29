@@ -449,4 +449,3 @@ class HealthAnalyzer:
         
         # Ensure confidence stays within reasonable bounds
         return max(50.0, min(95.0, base_confidence))
-"""
